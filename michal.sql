@@ -337,4 +337,3 @@ LEFT JOIN
 	AND ContractNumber = '9460063189' 
 ) l
 ON l.contractnumber = a.ContractNumber AND a.month_id = l.month_id AND a.flow_type = l.flow_type
-WHERE a.ContractNumber = '9460063189'
